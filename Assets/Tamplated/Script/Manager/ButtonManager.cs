@@ -20,17 +20,26 @@ public class ButtonManager : MonoBehaviour
         {
             TriggerFirstActiveButton("Esc");
         }
-        
+
 
         if (Input.GetKey(KeyCode.LeftAlt) || isPaused)
         {
             Cursor.visible = true;
         }
-        else 
+        else
         {
             Cursor.visible = false;
         }
-        
+
+        if (!isPaused)
+        {
+            Time.timeScale = 1f;
+        }
+        else
+        {
+            Time.timeScale = 0f;
+        }
+
     }
 
     public void TogglePause()
@@ -66,24 +75,24 @@ public class ButtonManager : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         SceneManager.LoadScene(sceneName);
     }
-     
-    
+
+
     public void pause()
     {
-       
+
     }
 
 
     public void Resume()
     {
-       
+
     }
 
 
     public void Restart()
     {
         Time.timeScale = 1f;
-        //StartCoroutine(RestartSequence());
+        StartCoroutine(RestartSequence());
     }
 
     private IEnumerator RestartSequence()
@@ -93,7 +102,7 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene(currentScene.buildIndex);
         Debug.unityLogger.Log("Scene Restard");
     }
-    
+
     public void QuitGame()
     {
         StartCoroutine(QuitGameSequence());
