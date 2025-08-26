@@ -19,7 +19,6 @@ public class PlayerMove : MonoBehaviour
     }
     void OnDestroy()
     {
-       
         PointManager.OnScoreThresholdReached -= IncreaseSpeed;
     }
 
@@ -30,6 +29,8 @@ public class PlayerMove : MonoBehaviour
             Jump();
             SFXManager.instance.PlaySFX("Jump");
         }
+
+        rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
     }
 
     void Jump()

@@ -957,7 +957,7 @@ GameObject:
   - component: {fileID: 4083119661414304499}
   m_Layer: 0
   m_Name: Dusty
-  m_TagString: Untagged
+  m_TagString: Dusty
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 1301688890196390583}
   m_Layer: 0
   m_Name: Bactino
-  m_TagString: Untagged
+  m_TagString: Bactino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1454,7 +1454,7 @@ GameObject:
   - component: {fileID: 5840761774861490918}
   m_Layer: 0
   m_Name: Ground3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

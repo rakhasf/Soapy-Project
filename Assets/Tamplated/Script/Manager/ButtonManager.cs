@@ -22,25 +22,28 @@ public class ButtonManager : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.LeftAlt) || isPaused)
-        {
-            Cursor.visible = true;
-        }
-        else
-        {
-            Cursor.visible = false;
-        }
-
-        if (!isPaused)
-        {
-            Time.timeScale = 1f;
-        }
-        else
-        {
-            Time.timeScale = 0f;
-        }
+        // if (Input.GetKey(KeyCode.LeftAlt) || isPaused)
+        // {
+        //     Cursor.visible = true;
+        // }
+        // else
+        // {
+        //     Cursor.visible = false;
+        // }
 
     }
+
+    // public void PauseControls() // CUSTOM!!!!!!!!!!!!!!!!
+    // {
+    //     if (!isPaused)
+    //     {
+    //         Time.timeScale = 1f;
+    //     }
+    //     else
+    //     {
+    //         Time.timeScale = 0f;
+    //     }
+    // }
 
     public void TogglePause()
     {
@@ -79,13 +82,13 @@ public class ButtonManager : MonoBehaviour
 
     public void pause()
     {
-
+        Time.timeScale = 0f;
     }
 
 
     public void Resume()
     {
-
+        Time.timeScale = 1f;
     }
 
 
