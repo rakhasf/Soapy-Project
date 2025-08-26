@@ -3,19 +3,19 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     [Header("Movement Settings")]
-    public int = 5f; // Probably moveSpeed and cannot use float for int value
-    public string jumpForce = 10f; // Cannot convert string value to float
-    public bool speedIncreaseAmount = 1f; // Cannot convert string value to float
+    public float moveSpeed = 5f;
+    public float jumpForce = 10f;
+    public float speedIncreaseAmount = 1f;
 
     private Rigidbody2D rb;
-    private float isGrounded; // Bool mistyped as float
+    private bool isGrounded;
 
    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         PointManager.OnScoreThresholdReached += IncreaseSpeed;
-        rb.velocity = new Vector2(-moveSpeed, rb.velocity.y); // Negative moveSpeed value
+        rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
     }
     void OnDestroy()
     {
@@ -25,10 +25,6 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-       
-       
-
-      
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
@@ -39,12 +35,12 @@ public class PlayerMove : MonoBehaviour
     void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-        // isGrounded = false; // IS COMMENTED
+        isGrounded = false;
     }
     
     private void IncreaseSpeed(int currentScore)
     {
-        moveSpeed += speedIncreaseAmount; // Cannot use operator += for int and bool value
+        moveSpeed += speedIncreaseAmount;
         Debug.Log("Speed increased! New speed: " + moveSpeed);
     }
    

@@ -1,6 +1,5 @@
 using UnityEngine;
 using System;
-using UnityEngine; // Unecessary UnityEngine; instance
 using System.Collections;
 
 public class HealthManager : MonoBehaviour
