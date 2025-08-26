@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Collider Pelan
+  m_TargetType:
+    m_NativeTypeID: 60
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Density
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Material
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_IncludeLayers.m_Bits
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExcludeLayers.m_Bits
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_LayerOverridePriority
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ForceSendLayers.m_Bits
+    value: 4294967295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ForceReceiveLayers.m_Bits
+    value: 4294967295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ContactCaptureLayers.m_Bits
+    value: 4294967295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_CallbackLayers.m_Bits
+    value: 4294967295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_IsTrigger
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_UsedByEffector
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_UsedByComposite
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Offset.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Offset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.border.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.border.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.border.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.border.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.pivot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.pivot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.oldSize.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.oldSize.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.newSize.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.newSize.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.drawMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SpriteTilingProperty.adaptiveTiling
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AutoTiling
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.size
+    value: 13
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].x
+    value: 1.567287
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].y
+    value: -0.9697301
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].x
+    value: -3.6208918
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].y
+    value: 3.4792697
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
+    value: -3.7678137
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].y
+    value: 3.3443508
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
+    value: -3.320164
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
+    value: 2.2336833
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
+    value: -0.32923782
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
+    value: -0.910258
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].x
+    value: 1.0155952
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].y
+    value: -1.9512897
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[6].x
+    value: 1.7598667
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[6].y
+    value: -2.5560324
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[7].x
+    value: 2.093849
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[7].y
+    value: -3.3109744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[8].x
+    value: 2.774023
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[8].y
+    value: -3.4775834
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[9].x
+    value: 3.0809622
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[9].y
+    value: -3.2509665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[10].x
+    value: 3.596896
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[10].y
+    value: -2.7543335
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[11].x
+    value: 2.745221
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[11].y
+    value: -2.2360198
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[12].x
+    value: 2.175359
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[12].y
+    value: -1.364766
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_UseDelaunayMesh
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
